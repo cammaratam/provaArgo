@@ -1,2 +1,3 @@
-FROM /usr/provaArgo/template.html
-COPY . /usr/provaArgo
+FROM nginx:alpine
+COPY template.html /usr/share/nginx/html
+EXPOSE 80
