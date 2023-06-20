@@ -1,2 +1,2 @@
-FROM provaArgo
-COPY . /usr/provaArgo/template.html
+FROM /usr/provaArgo/template.html
+COPY . /usr/provaArgo
